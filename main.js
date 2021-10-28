@@ -17,32 +17,32 @@ function verificar() {
       genero = 'Homem'
       if (idade >= 0 && idade < 10){
           //criança
-          img.setAttribute('src', 'img/crianca-menino.jpg')// atribui a foto para o elemento img
+          img.setAttribute('src', 'img/crianca-menino.png')// atribui a foto para o elemento img
       }else if (idade < 21){
           //jovem
-          img.setAttribute('src', 'img/adolescente-homem.jpg')// atribui a foto para o elemento img
+          img.setAttribute('src', 'img/adolescente-homem.png')// atribui a foto para o elemento img
       }else if ( idade < 50){
           //Adulto
-          img.setAttribute('src', 'img/man.jpg')// atribui a foto para o elemento img
+          img.setAttribute('src', 'img/man.png')// atribui a foto para o elemento img
       }else {
           //Idoso
-          img.setAttribute('src', 'img/idoso.jpg')// atribui a foto para o elemento img
+          img.setAttribute('src', 'img/idoso.png')// atribui a foto para o elemento img
       }
      }
       else if (fsex[1].checked){
           genero = 'Mulher'
           if (idade >= 0 && idade < 10){
             //criança
-            img.setAttribute('src', 'img/crianca-menina.jpg')// atribui a foto para o elemento img
+            img.setAttribute('src', 'img/crianca-menina.png')// atribui a foto para o elemento img
         }else if (idade < 21){
             //jovem
-            img.setAttribute('src', 'img/adolescente-mulher.jpg') // atribui a foto para o elemento img
+            img.setAttribute('src', 'img/adolescente-mulher.png') // atribui a foto para o elemento img
         }else if ( idade < 50){
             //Adulto
-            img.setAttribute('src', 'img/woman.jpg') // atribui a foto para o elemento img
+            img.setAttribute('src', 'img/woman.png') // atribui a foto para o elemento img
         }else {
             //Idoso
-            img.setAttribute('src', 'img/idosa.jpg') // atribui a foto para o elemento img
+            img.setAttribute('src', 'img/idosa.png') // atribui a foto para o elemento img
         }
       }
       res.style.textAlign = 'center'
